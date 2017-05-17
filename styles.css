@@ -98,7 +98,7 @@ blockquote:after, blockquote:before, q:after, q:before {
 	src: local("Roboto Mono"), local("RobotoMono-Regular"), url(../fonts/roboto-mono-v4-latin-regular.woff2) format("woff2"), url(../fonts/roboto-mono-v4-latin-regular.woff) format("woff")
 }
 html {
-	background-image: url(https://digassets/res/tile-dh.jpg);
+	background-image: url(https://digitalhazards.net/assets/res/tile-dh.jpg);
 	height: 100%;
 	overflow-y: scroll
 }
@@ -143,7 +143,7 @@ h4 {
 	font-weight: 400;
 	position: relative;
 	display: block;
-	color: #555
+	color: #fff
 }
 .title-input input[type=text] .subheader, h1 .subheader, h2 .subheader, h3 .subheader, h4 .subheader, h5 .subheader, h6 .subheader {
 	font-size: .5em;
@@ -2667,7 +2667,8 @@ form.search-box button:hover {
 }
 .action-buttons.text-left .text-button {
 	padding-right: 16px;
-	padding-left: 0
+	padding-left: 0;
+	color: white;
 }
 .action-buttons.text-center, .nav-tabs {
 	text-align: center
@@ -3005,7 +3006,8 @@ ul.pagination a {
 	font-size: 15px
 }
 .entity-list.compact hr {
-	margin: 0
+	margin: 0;
+	background-color: #444;
 }
 .dropdown-container {
 	display: inline-block;
@@ -3626,4 +3628,10 @@ body.dragging, body.dragging * {
 	background-color: #EEE;
 	box-shadow: 0 0 2px 0 rgba(0, 0, 0, .1);
 	border: 1px solid #DDD
+}
+.a {
+	color: white!important;
+}
+.header {
+	background-color: #333!important;
 }
