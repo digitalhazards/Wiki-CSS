@@ -98,7 +98,7 @@ blockquote:after, blockquote:before, q:after, q:before {
 	src: local("Roboto Mono"), local("RobotoMono-Regular"), url(../fonts/roboto-mono-v4-latin-regular.woff2) format("woff2"), url(../fonts/roboto-mono-v4-latin-regular.woff) format("woff")
 }
 html {
-	background-color: #FFF;
+	background-image: url(https://digassets/res/tile-dh.jpg);
 	height: 100%;
 	overflow-y: scroll
 }
