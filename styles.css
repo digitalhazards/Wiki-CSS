@@ -3634,4 +3634,10 @@ body.dragging, body.dragging * {
 }
 #header, #back-to-top, .primary-background {
 	background-color: rgba(15, 15, 15, 0.7)!important;
+	border-bottom-width: 2px;
+    border-bottom-color: #00A8FF;
+    border-bottom-style: solid;
+}
+.action-buttons .text-button:last-child, .breadcrumbs .text-button:last-child {
+	color:white;
 }
