@@ -1705,7 +1705,7 @@ table.table {
 	width: 100%
 }
 table.table tr {
-	border-bottom: 1px solid #DDD
+	border-bottom: 1px solid #444
 }
 table.table td, table.table th {
 	text-align: left;
@@ -1718,7 +1718,7 @@ table.table th {
 	font-weight: 700
 }
 table.table tr:hover {
-	background-color: #EEE
+	background-color: rgba(33, 33, 33, 0.7)!important;
 }
 table.table .text-right {
 	text-align: right
