@@ -99,6 +99,7 @@ blockquote:after, blockquote:before, q:after, q:before {
 }
 html {
 	background-image: url(https://digitalhazards.net/assets/res/tile-dh.jpg);
+	background-color: #000;
 	height: 100%;
 	overflow-y: scroll
 }
@@ -2636,7 +2637,7 @@ form.search-box button:hover {
 	display: inline-block
 }
 .faded a, .faded button, .faded span, .faded span>div {
-	color: #666
+	color: #fff
 }
 .faded .text-button {
 	opacity: .5;
@@ -2654,7 +2655,7 @@ form.search-box button:hover {
 	background-color: rgba(21, 101, 192, .15)
 }
 .book-tree, .book-tree.fixed {
-	background-color: #FFF;
+	background-color: transparent;
 	top: 0
 }
 .action-buttons .text-button:last-child, .breadcrumbs .text-button:last-child {
@@ -2927,7 +2928,7 @@ form.search-box button:hover {
 .activity-list-item {
 	padding: 12px 0;
 	color: #888;
-	border-bottom: 1px solid #EEE;
+	border-bottom: 1px solid #444;
 	font-size: .9em
 }
 .activity-list-item .left+.right {
@@ -3000,7 +3001,8 @@ ul.pagination a {
 	display: none;
 	font-size: 12px;
 	padding-top: 6px;
-	margin: 0
+	margin: 0;
+	color: #999;
 }
 .entity-list.compact>p.empty-text {
 	display: block;
