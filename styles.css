@@ -2641,7 +2641,8 @@ form.search-box button:hover {
 .faded .text-button {
 	opacity: .5;
 	-webkit-transition: all ease-in-out 120ms;
-	transition: all ease-in-out 120ms
+	transition: all ease-in-out 120ms;
+	color: white!important;
 }
 .faded .text-button:hover {
 	opacity: 1;
@@ -3640,4 +3641,7 @@ body.dragging, body.dragging * {
 }
 .action-buttons .text-button:last-child, .breadcrumbs .text-button:last-child {
 	color:white;
+}
+blockquote, ol, p, pre, table, ul {
+	color: white;
 }
