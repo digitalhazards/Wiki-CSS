@@ -263,7 +263,7 @@ blockquote:before {
 	position: relative
 }
 .code-base, code, span.code {
-	background-color: #F8F8F8;
+	background-color: #737373;
 	font-family: monospace;
 	font-size: .8em;
 	border: 1px solid #DDD;
